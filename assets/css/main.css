@@ -1,0 +1,23 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+/* Main CSS */
+:root {
+  font-size: 3pt;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: table;
+  height: 5000px;
+  width: 100%;
+}
+
+video {
+  position: fixed;
+  width: 100vw;
+}
