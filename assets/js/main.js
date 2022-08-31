@@ -7,9 +7,5 @@ window.addEventListener('scroll', function(e) {
   // video duration is 4.375
   video.currentTime = wScroll/100;
 
-  // at the end of the video, fade in the remaining text
-  // if(wScroll == 1000) {
-  //
-  // }
-  console.log(wScroll);
+  // fading in each paragraph
 });
