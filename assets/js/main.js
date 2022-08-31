@@ -1,10 +1,15 @@
-var video       = document.getElementById('coverLetterFootage');
+var video = document.getElementById('coverLetterFootage');
 
+// scroll function which enables video playback synchronously
 window.addEventListener('scroll', function(e) {
   var wScroll     = window.pageYOffset;
-  // var vTime = video.currentTime;
 
   // video duration is 4.375
-  video.currentTime = wScroll/200;
-  
+  video.currentTime = wScroll/100;
+
+  // at the end of the video, fade in the remaining text
+  // if(wScroll == 1000) {
+  //
+  // }
+  console.log(wScroll);
 });

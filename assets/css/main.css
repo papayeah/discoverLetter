@@ -1,5 +1,5 @@
 /* Google Font Imports */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;1,200&display=swap');
 
 /* Main CSS */
 :root {
@@ -11,13 +11,46 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  display: table;
-  height: 5000px;
   width: 100%;
 }
 
 video {
   position: fixed;
   width: 100vw;
+  z-index: 1;
+}
+
+main {
+  color: #e3e3e3;
+  /* display: none; */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.2vw;
+  font-weight: 200;
+  line-height: auto;
+  padding-bottom: 120px;
+  padding-left: 120px;
+  padding-top: 150vh;
+  position: relative;
+  z-index: 2;
+}
+
+h1, h6 {
+  font-weight: 400;
+}
+
+.story {
+  margin-left: -8px;
+}
+
+.grid {
+  margin: 0;
+}
+
+.grid__col {
+  padding: 0;
 }
